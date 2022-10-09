@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Last_Survey</title>
+  <link rel="stylesheet" href="lastSurvey.css" type="text/css">
+  <link rel="stylesheet" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+  <br/>
+  <h1 align="center">Últimas Dos Preguntas</h1>
+  <script src="lastSurvey.js"></script>
+    <p> ¡Hola! Por favor responde estas dos últimas preguntas.</p>
+  <!-- INICIO FORMULARIO -->
+  <form name = "last2question" onsubmit=" return onSubmit()"> 
+    <br/>
+      <div align='center'><h2>¿Cuánto tiempo estimas que transcurrió desde que inició el experimento?</h2>
+        <br/>        
+        <div class="rating3">
+          <input type="radio" name="rating3" id="rate35" value="4"><label for="rate35">"Más de 40 min"</label><br/>
+          <input type="radio" name="rating3" id="rate34" value="3"><label for="rate34">"40 min"</label><br/>
+          <input type="radio" name="rating3" id="rate33" value="2"><label for="rate33">"30 min"</label><br/>
+          <input type="radio" name="rating3" id="rate32" value="1"><label for="rate32">"20 min"</label><br/>
+          <input type="radio" name="rating3" id="rate31" value="0"><label for="rate31">"10 min"</label><br/>
+        </div>
+      </div>
+      <br/>
+
+      <div align='center'><h2>¿Tuviste ganas de abandonar el experimento?</h2>
+        <br/>
+        <div class="rating4">
+          <input type="radio" name="rating4" id="rate45" value="4"><label for="rate45">"No, en nigún momento"</label><br/>
+          <input type="radio" name="rating4" id="rate44" value="3"><label for="rate44">"Sí, luego de ver los videos educativos"</label><br/>
+          <input type="radio" name="rating4" id="rate43" value="2"><label for="rate43">"Sí, luego del tercer video"</label><br/>
+          <input type="radio" name="rating4" id="rate42" value="1"><label for="rate42">"Sí, luego del segundo video"</label><br/>
+          <input type="radio" name="rating4" id="rate41" value="0"><label for="rate41">"Sí, luego del primer video"</label><br/>
+        </div>
+      </div>
+      <br/>
+      <br/>
+      <div align = 'center'> <input type="submit" value="Submit"></div>
+  </form>
+  <div> 
+    <br/>
+    <br/>    
+    <h3 align = "center"></h3align> <i> ¡Muchas Gracias! </i> 😁</h3>
+  </div>
+  <br/>
+  <div align = 'center'><A HREF = "index.html"> Home </A></div> 
+  <script src = "FileSaver.js\src\FileSaver.js"> </script>
+  <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+</body>
+
+</html>
